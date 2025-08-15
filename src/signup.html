@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Segoe+UI:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d url('images/logiinnn.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .signup-box {
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 15px;
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
+      width: 320px;
+      padding: 35px 28px;
+      color: #ffffff;
+    }
+
+    .signup-box h1 {
+      text-align: center;
+      color: #edefe8;
+      margin-bottom: 20px;
+    }
+
+    .signup-box img.center {
+      display: block;
+      margin: 0 auto 20px;
+      width: 60px;
+      height: auto;
+    }
+
+    .form__field {
+      margin-bottom: 20px;
+    }
+
+    .form__field label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .form__input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4da8ff;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3c91e6;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="signup.php" method="POST" class="signup-box">
+    <!-- <img src="#" alt="logo" class="center"> -->
+    <h1>Sign up</h1>
+
+    <div class="form__field">
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username" class="form__input" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form__field">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" class="form__input" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form__field">
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" class="form__input" placeholder="Password" required>
+    </div>
+
+    <div class="form__field">
+      <input type="submit" value="Sign Up">
+    </div>
+  </form>
+<script src="signup.js"></script>
+</body>
+</html>

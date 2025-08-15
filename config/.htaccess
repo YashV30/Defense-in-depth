@@ -1,0 +1,48 @@
+<Files "db.php">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "signup.php">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "forget.html">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "index.html">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "signup.html">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "style.css">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
+
+<Files "raw-signup.html">
+  AuthType Basic
+  AuthName "Restricted Area"
+  AuthUserFile /etc/apache2/.htpasswd
+  Require valid-user
+</Files>
