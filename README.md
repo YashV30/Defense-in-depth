@@ -1,7 +1,9 @@
-🛡 Defense-in-Depth Web Security Project
+# 🛡 Defense-in-Depth Web Security Project
 
 A practical Defense-in-Depth implementation demonstrating multiple layers of security for a web application.
 This project showcases network, application, and host-level security measures to protect a sample login system.
+<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/7c7d3d8b-8526-4fec-9c93-b28ce590b0ae" />
+
 
 📖 Overview
 
