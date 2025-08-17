@@ -17,13 +17,7 @@ This project is designed to demonstrate Defense-in-Depth principles by securing 
 It can be used as an educational project to understand layered security in real-world deployments.
 
 
-
-🔗 Live Preview
-
-Note: Replace this with your hosted link if you deploy online.
-Example: Live Demo
-
-✨ Key Features
+# ✨ Key Features
 
 Frontend: HTML, CSS, JavaScript login system
 
@@ -39,7 +33,7 @@ Configuration Files: .htaccess & Apache vhost security rules
 
 Documentation: Full project report and screenshots included
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Frontend: HTML5, CSS3, JavaScript
 
@@ -53,36 +47,8 @@ Security Tools: iptables, Snort IDS, ACLs
 
 OS: Debian/Ubuntu
 
-📂 Project Structure
-defense-in-depth/
-│
-├── src/                 # Source code
-│   ├── index.html
-│   ├── signup.html
-│   ├── forget.html
-│   ├── raw-signup.html
-│   ├── signup.php
-│   ├── db.php           # Fake credentials for GitHub
-│   ├── style.css
-│   └── script.js
-│
-├── config/              # Server configuration files
-│   ├── .htaccess
-│   └── apache-vhost.conf
-│
-├── security/            # Security scripts & configurations
-│   ├── iptables-rules.sh
-│   ├── acl-config.txt
-│   └── snort-config.conf
-│
-├── docs/                # Documentation
-│   ├── README.md
-│   ├── project-report.pdf
-│   ├── screenshots/
-│   │   ├── login-page.png
-│   │   └── firewall-rules.png
 
-🚀 Getting Started
+# 🚀 Getting Started
 📌 Prerequisites
 
 Debian/Ubuntu server
@@ -93,11 +59,11 @@ MySQL/MariaDB server
 
 iptables, setfacl, and Snort installed
 
-⚙️ Installation
+# ⚙️ Installation
 
 Clone this repository:
 
-git clone https://github.com/yourusername/defense-in-depth.git
+git clone https://github.com/YashV30/defense-in-depth.git
 cd defense-in-depth
 
 
@@ -116,10 +82,18 @@ Set ACL permissions:
 
 sudo bash security/acl-config.txt
 
+# Output
+
+<img width="1920" height="1080" alt="Web ACL" src="https://github.com/user-attachments/assets/b8d4d267-bab2-4df0-9912-f505907adab6" />
+
 
 Apply iptables firewall rules:
 
 sudo bash security/iptables-rules.sh
+
+# Output
+
+<img width="1920" height="1080" alt="Iptables rules implementation" src="https://github.com/user-attachments/assets/b970c143-6be8-4c86-8f16-3a481e91f026" />
 
 
 Configure Snort IDS:
@@ -127,11 +101,20 @@ Configure Snort IDS:
 sudo cp security/snort-config.conf /etc/snort/snort.conf
 sudo snort -T -c /etc/snort/snort.conf
 
-🧪 How to Use
+# Output
+
+<img width="1920" height="1080" alt="final result" src="https://github.com/user-attachments/assets/0cb2ea32-74d4-4e8c-b01d-8f8759630e09" />
+
+
+# 🧪 How to Use
 
 Access the application via browser:
 
-http://your-server-ip/
+url :- (http://192.168.141.130/)
+
+# Output
+
+<img width="1920" height="1080" alt="login page" src="https://github.com/user-attachments/assets/dd8d3525-e169-4182-af47-894ddff940d6" />
 
 
 Try logging in or signing up.
