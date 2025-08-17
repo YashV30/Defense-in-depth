@@ -143,6 +143,5 @@ Not recommended for production without further hardening.
 
 👨‍💻 Yash Shivatare 
 
-📧 shivatareyash30@gmail.com
 
 🔗 https://github.com/YashV30
