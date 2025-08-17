@@ -64,6 +64,7 @@ iptables, setfacl, and Snort installed
 Clone this repository:
 
 git clone https://github.com/YashV30/defense-in-depth.git
+
 cd defense-in-depth
 
 
@@ -75,10 +76,11 @@ sudo cp -r src/* /var/www/html/
 Configure Apache:
 
 sudo cp config/apache-vhost.conf /etc/apache2/sites-available/000-default.conf
+
 sudo systemctl restart apache2
 
 
-Set ACL permissions:
+## Set ACL permissions:
 
 sudo bash security/acl-config.txt
 
@@ -87,7 +89,7 @@ sudo bash security/acl-config.txt
 <img width="1920" height="1080" alt="Web ACL" src="https://github.com/user-attachments/assets/b8d4d267-bab2-4df0-9912-f505907adab6" />
 
 
-Apply iptables firewall rules:
+## Apply iptables firewall rules:
 
 sudo bash security/iptables-rules.sh
 
@@ -96,7 +98,7 @@ sudo bash security/iptables-rules.sh
 <img width="1920" height="1080" alt="Iptables rules implementation" src="https://github.com/user-attachments/assets/b970c143-6be8-4c86-8f16-3a481e91f026" />
 
 
-Configure Snort IDS:
+## Configure Snort IDS:
 
 sudo cp security/snort-config.conf /etc/snort/snort.conf
 sudo snort -T -c /etc/snort/snort.conf
@@ -117,18 +119,22 @@ url :- (http://192.168.141.130/)
 <img width="1920" height="1080" alt="login page" src="https://github.com/user-attachments/assets/dd8d3525-e169-4182-af47-894ddff940d6" />
 
 
-Try logging in or signing up.
+# Try logging in or signing up.
 
-Test firewall restrictions and IDS alerts using penetration testing tools (e.g., Nmap, cURL).
+## Signup Page
 
-View Snort logs in:
+<img width="1920" height="1080" alt="Signup Page" src="https://github.com/user-attachments/assets/2e97cf26-a3a8-4a3f-8780-1ff5aa972326" />
 
-/var/log/snort/alert
+# Login with Cerdentials
 
-📸 Screenshots
-Login Page	Firewall Rules View
+<img width="1920" height="1080" alt="Login With user Credential" src="https://github.com/user-attachments/assets/f0117fed-b010-4058-a6c9-666c7f6f3afd" />
 
-	
+# Database Entry
+
+<img width="1920" height="1080" alt="database entries" src="https://github.com/user-attachments/assets/90d60962-38e8-42f9-b5da-ebcd645cd156" />
+
+
+
 📜 License
 
 This project is for educational purposes only.
@@ -137,5 +143,5 @@ Not recommended for production without further hardening.
 👨‍💻 Author
 
 Your Name
-📧 your.email@example.com
-🔗 GitHub Profile
+📧 shivatareyash30@gmail.com
+🔗 https://github.com/YashV30
