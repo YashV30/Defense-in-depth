@@ -2,24 +2,21 @@
 
 A practical Defense-in-Depth implementation demonstrating multiple layers of security for a web application.
 This project showcases network, application, and host-level security measures to protect a sample login system.
+
+
 <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/7c7d3d8b-8526-4fec-9c93-b28ce590b0ae" />
 
 
-📖 Overview
+# 📖 Overview
 
 This project is designed to demonstrate Defense-in-Depth principles by securing a simple web application with:
 
-Access Control (ACLs, .htaccess)
+<img width="1536" height="1024" alt="project image" src="https://github.com/user-attachments/assets/f9134117-716f-422f-9007-143114df644a" />
 
-Firewall Rules (iptables)
-
-Intrusion Detection (Snort IDS)
-
-Secure Coding Practices (prepared statements, sanitization)
-
-Minimal privilege principle for services and files
 
 It can be used as an educational project to understand layered security in real-world deployments.
+
+
 
 🔗 Live Preview
 
