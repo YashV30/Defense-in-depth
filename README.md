@@ -135,13 +135,14 @@ url :- (http://192.168.141.130/)
 
 
 
+
 📜 License
 
 This project is for educational purposes only.
 Not recommended for production without further hardening.
 
-👨‍💻 Author
+👨‍💻 Yash Shivatare 
 
-Your Name
 📧 shivatareyash30@gmail.com
+
 🔗 https://github.com/YashV30
